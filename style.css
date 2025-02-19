@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+/* mode styling */
+.dark
+{
+    background-color: black;
+    color: red;
+}
+.light 
+{
+    background-color: red;
+    color: black;
+}
+.divbtn
+{
+    gap: 30px;
+}
+.btnqn
+{
+    height: 35px;
+    width: 80px;
+    /* padding: 5px; */
+    border-radius: 0.8rem;
+    background-color: rgb(255, 68, 0);
+    border:  rgb(6, 0, 0);
+    box-shadow: 0 0 1.2rem rgb(45, 1, 168);
+    font-size: 25px;
+    color: black;
+}
+.word
+{
+    font-size: 30px;
+    color: white;
+}
+body
+{
+    margin-top: 25px;
+    margin-bottom: 15px;
+    background-color: #548687;
+    text-align: center;    
+}
+.container
+{
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.game
+{
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.2vmin;
+}
+.Box
+{
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 1rem;
+    border: none;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.5);
+    font-size: 8vmin;
+    color: #ac3632;
+    background-color: #ffffc7;
+}
+#reset
+{
+    height: 35px;
+    width: 80px;
+    /* padding: 5px; */
+    border-radius: 0.8rem;
+    background-color: yellow;
+    border:  rgb(6, 0, 0);
+    box-shadow: 0 0 1.2rem rgb(45, 1, 168);
+    font-size: 25px;
+    color: black;
+}
+#new-btn
+{
+    height: 35px;
+    width: 140px;
+    /* padding: 5px; */
+    border-radius: 0.8rem;
+    background-color: rgb(75, 236, 11);
+    border:  black;
+    box-shadow: 0 0 0.6rem rgba(0, 0, 0, 0.998);
+    font-size: 25px;
+    color: black;
+}
+#msg
+{
+    color: #ffffc7;
+    font-size: 5vmin;
+}
+.msg-container
+{
+    height: 100vmin;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 8vmin;
+    
+
+}
+.hide
+{
+    display: none;
+}
